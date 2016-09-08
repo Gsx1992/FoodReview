@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ie.wit.gareth.foodreviewapp.CreateReviewActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviewTitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/review_title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/reviewReview"
+        android:layout_below="@+id/reviewTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:layout_alignRight="@+id/reviewTitle"
+        android:layout_alignEnd="@+id/reviewTitle"
+        android:hint="@string/rest_feedback" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eat_again"
+        android:id="@+id/reviewCheck"
+        android:layout_marginTop="33dp"
+        android:checked="false"
+        android:layout_below="@+id/reviewReview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/postReviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:type="DEFAULT"
+        fab:button_color="#222222"
+        fab:button_colorPressed="@color/fab_material_lime_900"
+        fab:image="@drawable/fab_plus_icon"
+        fab:image_size="24dp"
+        fab:show_animation="@anim/fab_roll_from_down"
+        fab:hide_animation="@anim/fab_roll_to_down"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="postReview" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:id="@+id/reviewDate"
+        android:layout_marginLeft="40dp"
+        android:startYear="2014"
+        android:endYear="2016"
+        android:layout_below="@+id/reviewCheck"
+        android:layout_toLeftOf="@+id/postReviewButton"
+        android:layout_toStartOf="@+id/postReviewButton" />
+
+</RelativeLayout>

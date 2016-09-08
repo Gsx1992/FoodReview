@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GET IN MY BELLY!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_website">Website</string>
+    <string name="action_create_rest">Create Restaurant</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_create_restaurant">CreateRestaurantActivity</string>
+
+    <string-array name="food_types">
+        <item>Bar Food</item>
+        <item>Chinese Food</item>
+        <item>Indian Food</item>
+        <item>Sea Food</item>
+        <item>Italian Food</item>
+        <item>Fast Food</item>
+    </string-array>
+
+    <string name="title_activity_create_review">CreateReview</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name = "rest_name">Restaurant Name</string>
+    <string name = "rest_address">Restaurant Address</string>
+    <string name="food_type">Food Type</string>
+    <string name="review_title">Enter Review Title</string>
+    <string name="rest_feedback">How was the restaurant?</string>
+    <string name="eat_again">Eat Again?</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_confirm_password">Confirm Password</string>
+    <string name="view_location">View Location</string>
+    <string name="logout">Logout</string>
+
+</resources>

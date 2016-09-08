@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="action_create_rest">Skapa Restaurang</string>
+<string name="title_activity_login">Logga In</string>
+<string name="title_activity_register">Registrera Dig</string>
+<string name = "rest_name">Restaurang Namn</string>
+<string name = "rest_address">Restaurang Adress</string>
+<string name="food_type">Mat Typ</string>
+<string name="review_title">Ange Recension Titel</string>
+<string name="rest_feedback">Hur var restaurangen?</string>
+<string name="eat_again">Äta Igen?</string>
+<string name="enter_email">Ange E-mail</string>
+<string name="enter_password">Ange Lösenord</string>
+<string name="enter_name">Ange Namn</string>
+<string name="enter_confirm_password">Konfirmera Lösenord</string>
+<string name="view_location">Visa på Karta</string>
+<string name="logout">Logga Ut</string>
+</resources>
